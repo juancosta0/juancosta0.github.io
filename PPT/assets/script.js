@@ -2,9 +2,9 @@ function gerador(option){
     var botoption=parseInt(Math.random()*(4-1)+ 1)
     var resultado="empate"
     var labelresult=document.getElementById("result")
-document.getElementById("imgjogador").src=`/assets/imagem/${option}.png`
-document.getElementById("imgBot").src=`/assets/imagem/${botoption}.png`
-document.getElementById("bot").src=`/assets/imagem/${botoption}.png`
+document.getElementById("imgjogador").src=`assets/imagem/${option}.png`
+document.getElementById("imgBot").src=`assets/imagem/${botoption}.png`
+document.getElementById("bot").src=`assets/imagem/${botoption}.png`
 switch(botoption){
     case 1:
 
